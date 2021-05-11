@@ -6,8 +6,6 @@ docker build -t front .
 
 echo "Running 🏃‍♀️"
 
-docker run -d -p 3000:80 front
+docker run -d -p 80:80 front
 
-echo "Ready on port 3000"
-
-
+echo "Ready on port 80"
