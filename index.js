@@ -7,6 +7,6 @@ function test() {
     })
         .then(response => response.json())
         .then(data => {
-            console.log('DATA', data);
+            document.getElementById('container').innerHTML += '<li>' + data.newUser + '</li>';
         });
 }
